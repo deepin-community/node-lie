@@ -1,0 +1,27 @@
+Source: node-lie
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-immediate <!nocheck>
+ , node-sinon <!nocheck>
+ , node-underscore <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-lie
+Vcs-Git: https://salsa.debian.org/js-team/node-lie.git
+Homepage: https://github.com/calvinmetcalf/lie
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-lie
+Architecture: all
+Depends: ${misc:Depends}
+ , node-immediate
+Description: basic but performant promise implementation
+ lie is a small, performant, promise library implementing the Promises/A+ spec
+ Version 1.1.
+ .
+ Node.js is an event-based server-side JavaScript engine.

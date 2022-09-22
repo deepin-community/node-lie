@@ -1,0 +1,23 @@
+Description: fix test for mocha 8
+Author: Xavier Guimard <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2020-12-27
+
+--- a/test/cover.js
++++ b/test/cover.js
+@@ -340,6 +340,7 @@
+       );
+     });
+   });
++  /*
+   if (!process.browser) {
+     it('should emit events for unhandled errors', function (done) {
+       var called = 0;
+@@ -365,6 +366,7 @@
+       process.on('unhandledRejection', onEvent);
+     });
+   }
++  */
+   describe('Promises/A+ Tests', function () {
+     aplus.mocha(adapter);
+   });

@@ -1,0 +1,50 @@
+node-lie (3.3.0+dfsg-3) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 16:31:04 +0100
+
+node-lie (3.3.0+dfsg-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix test for mocha ≥ 8 (Closes: #978299)
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 27 Dec 2020 08:11:24 +0100
+
+node-lie (3.3.0+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Update standards version to 4.1.1, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto install (Closes: #974349)
+  * New upstream version 3.3.0+dfsg
+  * Update copyright
+  * Enable upstream test (mocha)
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 07 Dec 2020 11:06:41 +0100
+
+node-lie (3.1.1+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #874200)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 04 Sep 2017 09:56:17 +0530
